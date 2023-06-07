@@ -1,0 +1,114 @@
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-02-21',
+ 'source': '中国抗癌协会',
+ 'state': 0,
+ 'title': '【2月22日】CACA指南中国行｜血液肿瘤指南巡讲——南中国站',
+ 'url': 'http://www.caca.org.cn/system/2023/02/21/030033926.shtml'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-02-24',
+ 'source': '人体健康科技促进会',
+ 'state': 0,
+ 'title': '“浙大邵医皮肤科·钱塘论道”学术论坛会议通知',
+ 'url': 'http://www.chstpa.com.cn/partyConstruction/list/detail?id=551'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-02-16',
+ 'source': '中国生物医学工程学会',
+ 'state': 0,
+ 'title': '2023中国生物医学工程大会暨创新医疗峰会会议通知',
+ 'url': 'http://www.csbme.org//meeting/1062.htm?pid=null&onStage=1'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-02-06',
+ 'source': '中国生物医学工程学会',
+ 'state': 0,
+ 'title': '2023放疗新技术质量控制培训班第二轮通知',
+ 'url': 'http://www.csbme.org//meeting/1056.htm?pid=null&onStage=1'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2022-08-22',
+ 'source': '中国生物医学工程学会',
+ 'state': 0,
+ 'title': '2022中国生物医学工程学会青年论坛成功召开',
+ 'url': 'http://www.csbme.org//meeting/934.htm?pid=null&onStage=1'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2022-08-12',
+ 'source': '中国生物医学工程学会',
+ 'state': 0,
+ 'title': '第八届中美生物医学工程暨海内外生物力学学术研讨会成功举办',
+ 'url': 'http://www.csbme.org//meeting/931.htm?pid=null&onStage=1'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2022-06-09',
+ 'source': '中国生物医学工程学会',
+ 'state': 0,
+ 'title': '第五届国际磁外科与微创介入医学大会',
+ 'url': 'http://www.csbme.org//meeting/919.htm?pid=null&onStage=1'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2022-04-20',
+ 'source': '中国生物医学工程学会',
+ 'state': 0,
+ 'title': '医学人工智能协同创新发展论坛顺利召开',
+ 'url': 'http://www.csbme.org//meeting/916.htm?pid=null&onStage=1'}
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-06-09',
+ 'source': '优麦会讯',
+ 'state': 0,
+ 'title': '中国抗癌协会首届黑色素瘤大会',
+ 'url': 'https://mp.weixin.qq.com/s/PQ1rjQrNiKNv7AuBXtpBaQ'}
+2023-06-07 20:59:49 [py.warnings] WARNING: C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py:29: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 29 of the file C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  title = BeautifulSoup(li).a['title']
+
+2023-06-07 20:59:49 [py.warnings] WARNING: C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py:30: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 30 of the file C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  title_url = 'http://www.nbygzx.org.cn' + BeautifulSoup(li).a['href']
+
+2023-06-07 20:59:49 [py.warnings] WARNING: C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py:31: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 31 of the file C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  date_time = BeautifulSoup(li).span.string
+
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-05-17',
+ 'source': '宁波医学会',
+ 'state': 0,
+ 'title': '关于举办2023年宁波市医学会内科分会学术年会的通知',
+ 'url': 'http://www.nbygzx.org.cn/art/2023/5/17/art_8277_633334.html'}
+2023-06-07 20:59:49 [py.warnings] WARNING: C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py:29: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 29 of the file C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  title = BeautifulSoup(li).a['title']
+
+2023-06-07 20:59:49 [py.warnings] WARNING: C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py:30: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 30 of the file C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  title_url = 'http://www.nbygzx.org.cn' + BeautifulSoup(li).a['href']
+
+2023-06-07 20:59:49 [py.warnings] WARNING: C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py:31: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 31 of the file C:\Users\Administrator\Desktop\Study\github\MeetControl\SpiderMeet\spiders\ningboyixuehui.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  date_time = BeautifulSoup(li).span.string
+
+2023-06-07 20:59:49 [scrapy.core.scraper] WARNING: Dropped: Item already exists in the database
+{'claw_date': '2023-06-07',
+ 'date_time': '2023-04-14',
+ 'source': '优麦会讯',
+ 'state': 0,
+ 'title': '陕西省医学会第十七次皮肤性病学学术年会',
+ 'url': 'https://mp.weixin.qq.com/s/9HsezSIYvz0LWRWoFuqLjw'}
+2023-06-07 20:59:49 [scrapy.core.scraper] ERROR: Spider must return request, item, or None, got 'generator' in <GET https://www.cpa.org.cn/?do=infolist&classid=270>
