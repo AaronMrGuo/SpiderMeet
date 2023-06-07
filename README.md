@@ -1,6 +1,6 @@
 <img src=".\asset\scrapy.png" style="zoom: 25%;" /><img src="C:\Users\Administrator\Documents\GitHub\SpiderMeet\asset\medical.png" alt="medical" style="zoom: 25%;" />
 
-# 👷🏼医疗行业会议信息收集爬虫
+# 👷🏼医疗行业会议信息收集
 
 
 
