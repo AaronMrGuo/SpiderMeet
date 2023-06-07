@@ -1,4 +1,4 @@
-<img src=".\asset\scrapy.png" style="zoom: 25%;" /><img src=".\asset\medical.png" alt="medical" style="zoom: 25%;" />
+<img src=".\asset\scrapy.png" style="zoom: 25%;" />
 
 # 👷🏼医疗行业会议信息收集
 
